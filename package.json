@@ -1,0 +1,23 @@
+{
+  "name": "my_web7",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "t.b.cache": "git+https://github.com/tomate-broccoli/t.b.cache.git",
+    "t.b.clone": "git+https://github.com/tomate-broccoli/t.b.clone.git",
+    "t.b.curry": "git+https://github.com/tomate-broccoli/t.b.curry.git",
+    "t.b.require": "git+https://github.com/tomate-broccoli/t.b.require.git",
+    "t.b.root": "git+https://github.com/tomate-broccoli/t.b.root.git",
+    "t.b.shortcut": "git+https://github.com/tomate-broccoli/t.b.shortcut.git",
+    "t.b.validate": "git+https://github.com/tomate-broccoli/t.b.validate.git"
+  }
+}
