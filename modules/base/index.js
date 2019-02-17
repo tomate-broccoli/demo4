@@ -6,7 +6,6 @@ const mw = require('t.b.cache')(()=>compose([
     base.session
    ,base.body
    ,base.method
-   ,base.test
 ]))
 
 const rack = async (ctx, next)=>{
