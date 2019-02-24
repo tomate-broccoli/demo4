@@ -1,7 +1,4 @@
 // login/views/index.js
+const {views} = require('./require.js')
 
-const lib = require('t.b.require')(__dirname)({
-    login:  'login.js'
-   ,layout: 'layout.js'
-})
-module.exports = lib
+module.exports = views

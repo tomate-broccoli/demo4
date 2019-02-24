@@ -1,8 +1,8 @@
 // login/validations/require.js
 const root = require('t.b.root')()
 const share = require('t.b.require')(root)({
-    validations: 'modules/share/validations'
-   ,items:       'modules/share/items'
+    items:       'modules/share/items'
+   ,messages:    'modules/share/messages'
 })
 
 const validations = require('t.b.require')(__dirname)({
